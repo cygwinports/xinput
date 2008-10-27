@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin libX11_6 libXi6
+sdesc: "X.Org XInput device tester"
+ldesc: "X.Org XInput device tester"

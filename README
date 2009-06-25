@@ -3,23 +3,23 @@ xinput
 X.Org XInput device tester
 
 Runtime requirements:
-  cygwin-1.7.0-45
+  cygwin-1.7.0-50
   libgcc1-4.3.2-2
-  libX11_6-1.2-10
+  libX11_6-1.2.1-1
   libXi6-1.2.1-10
 
 Build requirements:
 (besides corresponding devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
-  cygport-0.9.6-1
+  cygport-0.9.7-1
   gawk-3.1.6-2
   gcc4-core-4.3.2-2
   make-3.81-2
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
-  xorg-util-macros-1.2.1-1
+  xorg-util-macros-1.2.2-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -30,15 +30,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xinput-1.4.1-X-src.tar.bz2
+  unpack xinput-1.4.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xinput-1.4.1-X.cygport all
+  cygport ./xinput-1.4.2-X.cygport all
 
 This will create:
-  /usr/src/xinput-1.4.1-X-src.tar.bz2
-  /usr/src/xinput-1.4.1-X.tar.bz2
+  /usr/src/xinput-1.4.2-X-src.tar.bz2
+  /usr/src/xinput-1.4.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -55,6 +55,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.4.2-1 -----
+Version bump.
 
 ----- version 1.4.1-1 -----
 Version bump.

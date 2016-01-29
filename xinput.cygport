@@ -1,7 +1,7 @@
 inherit xorg
 
 NAME="xinput"
-VERSION=1.6.1
+VERSION=1.6.2
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="X input device tester"
